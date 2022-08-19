@@ -1,2 +1,2 @@
 # Anti-Human
-An Artificial Intelligent Security system that detects humans and beeps an alarm using a camera.
+An Artificial Intelligent Security system that can detects humans and beeps an alarm using a camera.
