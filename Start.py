@@ -6,7 +6,8 @@ mp_drawing = mp.solutions.drawing_utils
 myPose = mp.solutions.pose
 poses = myPose.Pose()
 
-cap = cv2.VideoCapture(0)
+
+cap = cv2.VideoCapture(0) #to display through inbuilt cam , change to 1 if you wish to display from other source
 
 while True:
     ret, frame = cap.read()
