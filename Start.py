@@ -1,6 +1,8 @@
 import cv2
 import mediapipe as mp
 import winsound
+import imutils
+
 
 mp_drawing = mp.solutions.drawing_utils
 myPose = mp.solutions.pose
@@ -21,7 +23,7 @@ while True:
 
         winsound.Beep(1000, 100)  # Beep at 1000 Hz for 100 ms
 
-    cv2.imshow('Anti-Human', frame)
+    cv2.imshow('search and Rescue person detector', frame)
     if cv2.waitKey(1) & 0xFF == 27:
         break
 
